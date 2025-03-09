@@ -1,0 +1,66 @@
+import feedparser
+
+import telegram
+
+from datetime import datetime, timedelta
+
+import asyncio
+
+import time
+
+
+
+bot_token = ''
+
+chat_id = ''
+
+bot = telegram.Bot(token=bot_token)
+
+
+
+feed_url = "https://feeds.feedburner.com/TheHackersNews"
+
+feed = feedparser.parse(feed_url)
+
+
+
+today = datetime.today().date()
+
+yesterday = today - timedelta(days=1)
+
+
+
+async def send_to_telegram():
+
+    for entry in feed.entries:
+
+        title = entry.title
+
+        link = entry.link
+
+        published = datetime(*entry.published_parsed[:6]).date()
+
+        if published == yesterday:
+
+            published_date = published.strftime('%Y-%m-%d')
+
+            emoji = "馃摪"
+
+            message = f"{emoji} {title}\n{link}\n\n馃棑 鬲丕乇蹖禺 丕賳鬲卮丕乇: {published_date}"
+
+            await bot.send_message(chat_id=chat_id, text=message)
+
+
+
+async def main():
+
+    while True:
+
+        await send_to_telegram()
+
+        time.sleep(86400)
+
+
+
+asyncio.run(main())
+
