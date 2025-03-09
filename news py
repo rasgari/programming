@@ -64,3 +64,116 @@ async def main():
 
 asyncio.run(main())
 
+
+
+===============================
+
+import feedparser
+
+import telegram
+
+import asyncio
+
+from datetime import datetime
+
+
+
+bot_token = ''
+
+chat_id = ''
+
+bot = telegram.Bot(token=bot_token)
+
+
+
+feeds = [
+
+    "https://feeds.feedburner.com/TheHackersNews",
+
+    "https://krebsonsecurity.com/feed/",
+
+    "https://www.securityweek.com/feed",
+
+    "https://www.darkreading.com/rss/all-news",
+
+    "https://threatpost.com/feed/",
+
+    "https://www.bleepingcomputer.com/feed/",
+
+    "https://www.zerodayinitiative.com/feed/",
+
+    "https://www.infosecurity-magazine.com/rss/",
+
+    "https://www.scmagazine.com/rss",
+
+    "https://www.cvedetails.com/rss/cve_list.xml"
+
+]
+
+
+
+today = datetime.today().date()
+
+
+
+async def send_to_telegram(title, link, published):
+
+    message = f"{title}\n{link}\n\nتاریخ انتشار: {published.strftime('%Y-%m-%d')}"
+
+    await bot.send_message(chat_id=chat_id, text=message)
+
+
+
+async def get_news_from_feed(feed_url):
+
+    feed = feedparser.parse(feed_url)
+
+    tasks = []
+
+    
+
+    for entry in feed.entries:
+
+        title = entry.title
+
+        link = entry.link
+
+        published = datetime(*entry.published_parsed[:6]).date()
+
+        
+
+        if published == today:
+
+            tasks.append(send_to_telegram(title, link, published))
+
+    
+
+    if tasks:
+
+        await asyncio.gather(*tasks)
+
+
+
+async def get_all_news_and_send():
+
+    tasks = [get_news_from_feed(feed_url) for feed_url in feeds]
+
+    await asyncio.gather(*tasks)
+
+
+
+async def main():
+
+    while True:
+
+        await get_all_news_and_send()
+
+        await asyncio.sleep(86400)
+
+
+
+asyncio.run(main())
+
+
+
+for telegram : https://t.me/codacker_chanel
