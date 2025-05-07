@@ -1,22 +1,22 @@
 # programming
 برنامه نویسی :
 
-edu link :
+===>>> edu link :
 [ site ](http://google.com)
 
-edu code :
+===>>> edu code :
 ```bash
   context name
 ```
 
-# title
-## intitle
+===>>> # title
+===>>> ## intitle
 
-Highlight   ‘ font ‘
+===>>> Highlight   ‘ font ‘
 
-Bold   ** font **
+===>>> Bold   ** font **
 
-edu table:
+===>>> edu table:
 
 > Note > Use mamba to create the environment. It's much faster than using conda.
 
@@ -28,7 +28,7 @@ edu table:
 
 
 ===========================================================================
-
+===>>> edu github to gitdiagram
 [ github ](https://github.com) ===>>> [ gitdiagram ](https://gitdiagram.com)
 
 
