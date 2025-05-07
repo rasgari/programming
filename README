@@ -1,11 +1,12 @@
 # programming
 برنامه نویسی :
 
-link:
+edu link :
 [ site ](http://google.com)
 
-
+edu code :
 ```bash
+  context name
 ```
 
 # title
@@ -15,6 +16,7 @@ Highlight   ‘ font ‘
 
 Bold   ** font **
 
+edu table:
 
 > Note > Use mamba to create the environment. It's much faster than using conda.
 
@@ -24,6 +26,8 @@ Bold   ** font **
 | Reddit    | r/ChatGPTPromptGenius      | 3536        | 305       | 21       | 654        | 24           | 2022.12-2023.11     |
 
 
+
+===========================================================================
 
 [ github ](https://github.com) ===>>> [ gitdiagram ](https://gitdiagram.com)
 
