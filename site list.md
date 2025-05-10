@@ -24,6 +24,9 @@
 
 [ Shadcn Theme Editor ](https://shadcnstudio.com/)
 
+
+[ github Shadcn Theme Editor ](https://github.com/themeselection/shadcn-studio)
+
 ========================================================================
 
 
