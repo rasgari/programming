@@ -100,3 +100,11 @@ https://reqres.in
 
 
 ============================================
+
+Kilo combines the best features of AI coding tools into one. Batteries included.
+یه ابزار اوپن سورس که میتونید به کمکش از هوش مصنوعی حین کد زدن استفاده کنید یه جورایی رقیب cursor و cline محسوب میشه.
+
+
+https://kilocode.ai
+
+===============================================
