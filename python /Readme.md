@@ -4,9 +4,12 @@
 https://www.python.org/downloads/
 ```
 
+===>>> Download Python 3.13.7
+
 آخرین نسخه Windows Installer (64-bit) رو دانلود کن.
 
 موقع نصب حتماً تیک Add Python to PATH رو بزن.
+
 
 
 ========================================
