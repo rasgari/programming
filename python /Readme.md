@@ -1,12 +1,13 @@
-برو به سایت رسمی پایتون: https://www.python.org/downloads/
+سایت رسمی پایتون:
+
+```
+https://www.python.org/downloads/
+```
 
 آخرین نسخه Windows Installer (64-bit) رو دانلود کن.
 
 موقع نصب حتماً تیک Add Python to PATH رو بزن.
 
-```
-https://www.python.org/downloads/
-```
 
 ========================================
 
