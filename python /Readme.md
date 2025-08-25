@@ -12,7 +12,29 @@ https://www.python.org/downloads/
 
 موقع نصب حتماً تیک Add Python to PATH رو بزن.
 
+عد از نصب، توی CMD یا PowerShell بزن:
+```
+python --version
+```
 
+اگر نصب داری ولی شناسایی نمی‌شه
+
+باید مسیر نصب پایتون رو دستی به PATH اضافه کنی:
+
+دکمه‌های Win + R رو بزن → بنویس:
+```
+sysdm.cpl
+```
+
+تب Advanced → دکمه Environment Variables.
+
+در قسمت System variables، متغیر Path رو انتخاب کن → Edit.
+
+مسیر نصب پایتون رو اضافه کن (بسته به نسخه‌ات):
+```
+C:\Users\YourUser\AppData\Local\Programs\Python\Python312\
+C:\Users\YourUser\AppData\Local\Programs\Python\Python312\Scripts\
+```
 
 ========================================
 
