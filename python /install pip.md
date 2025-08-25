@@ -17,3 +17,22 @@ python3 -m pip install requests
 # یا
 py -3 -m pip install requests
 ```
+
+
+=============================================================
+
+نصب با pip
+
+باز کن Command Prompt یا PowerShell و دستور زیر رو بزن:
+
+```
+pip install beautifulsoup4
+```
+
+یا برای اطمینان از آخرین نسخه:
+```
+python -m pip install --upgrade beautifulsoup4
+```
+
+
+=============================================================
