@@ -10,7 +10,7 @@ https://www.python.org/downloads/
 
 آخرین نسخه Windows Installer (64-bit) رو دانلود کن.
 
-موقع نصب حتماً تیک Add Python to PATH رو بزن.
+===>>> موقع نصب حتماً تیک Add Python to PATH رو بزن.  <<<====
 
 عد از نصب، توی CMD یا PowerShell بزن:
 ```
