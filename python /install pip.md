@@ -52,3 +52,12 @@ pip install selenium requests
 ```
 pip install fastapi uvicorn aiofiles
 ```
+
+=============================================================
+
+
+```
+pip install aiohttp aiosqlite beautifulsoup4 yarl
+```
+
+=============================================================
