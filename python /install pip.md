@@ -49,4 +49,6 @@ pip install selenium requests
 
 =============================================================
 
-
+```
+pip install fastapi uvicorn aiofiles
+```
