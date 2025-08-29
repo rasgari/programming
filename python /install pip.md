@@ -42,28 +42,26 @@ python -m pip install --upgrade beautifulsoup4
 باید ChromeDriver روی سیستم نصب باشه و در PATH باشه یا مسیرش مشخص بشه.
 
 نیاز به نصب کتابخانه‌ها:
-
+===>>> selenium requests
 ```
 pip install selenium requests
 ```
 
-=============================================================
-
+===>>> fastapi
 ```
 pip install fastapi uvicorn aiofiles
 ```
 
-=============================================================
-
-
+===>>> aiohttp
 ```
 pip install aiohttp aiosqlite beautifulsoup4 yarl
 ```
 
-=============================================================
-
+===>>> tqdm
 ```
 pip install tqdm
 ```
 
-=============================================================
+===>>> pip show
+py -3.13 -m pip show tqdm
+
