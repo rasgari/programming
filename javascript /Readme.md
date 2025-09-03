@@ -52,4 +52,8 @@ https://newsletter.jsecurity.ir
 
  ======================================
 
+===>>> new future javascript 
+
+https://github.com/tc39/proposals
  
+======================================
