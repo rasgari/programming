@@ -57,3 +57,6 @@ dash.plotly.com
 t.me/LearnPY 
 
 ==========================================
+
+کتابخونه پایتون :
+[ nicegui ](https://nicegui.io/)
