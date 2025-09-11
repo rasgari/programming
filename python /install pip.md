@@ -63,11 +63,21 @@ pip install tqdm
 ```
 
 ===>>> pip show
+```
 py -3.13 -m pip show tqdm
+```
 
 ===>>> wappalyzer
+```
 pip install python-Wappalyzer requests beautifulsoup4 tqdm
+```
 
 ===>>> setuptools
+```
 pip install setuptools
+```
 
+===>>> nicegui
+```
+pip3 install nicegui
+```
