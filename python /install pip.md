@@ -81,3 +81,8 @@ pip install setuptools
 ```
 pip3 install nicegui
 ```
+
+===>>> beautifulsoup4 tqdm pandas openpyxl
+```
+pip install requests beautifulsoup4 tqdm pandas openpyxl
+```
