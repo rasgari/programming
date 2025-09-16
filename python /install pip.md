@@ -87,3 +87,15 @@ pip3 install nicegui
 pip install requests beautifulsoup4 tqdm pandas openpyxl
 ```
 ===>>> python scanner_full_advanced.py seeds.txt --out reports --workers 20 --check-cves --excel <<<=== cmd
+
+
+
+===>>> upgrade pip
+```
+py -3 -m pip install --upgrade pip
+```
+
+===>>> pandas openpyxl
+```
+py -3 -m pip install pandas openpyxl
+```
