@@ -108,3 +108,6 @@ Kilo combines the best features of AI coding tools into one. Batteries included.
 https://kilocode.ai
 
 ===============================================
+
+یادگیری برنامه نویسی
+===>>> [ roadmap ](roadmap.sh)
