@@ -57,3 +57,13 @@ https://newsletter.jsecurity.ir
 https://github.com/tc39/proposals
  
 ======================================
+
+
+آموزش استفاده از نرم افزار Node Guard
+
+محافظت از سورس کدهای Java Script در پلت فرم Node.js
+
+برای استفاده رایگان میتوانید به وب سایت  https://nodeguard.ir  مراجعه فرمایید.
+ 
+---
+
